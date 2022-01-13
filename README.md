@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: Island
-tagline:  I find it very strange.
+heroText:  Island
+tagline: And the world is strangee.
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
