@@ -97,5 +97,20 @@ module.exports = {
   },
   "markdown": {
     "lineNumbers": true
+  },
+  "plugins": {
+    "cat": true,
+    "dynamic-title": {
+      showIcon: "/favicon.ico",
+      showText: "(/≧▽≦/)咦！又好了！",
+      hideIcon: "/failure.ico",
+      hideText: "(●—●)喔哟，崩溃啦！",
+      recoverTime: 2000
+    },
+    "cursor-effects": {
+      size: 2,
+      shape: 'circle',  // 点击形状: 'star', 'star' | 'circle'
+      zIndex: 999999999
+    },
   }
 }
