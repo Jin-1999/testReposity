@@ -31,16 +31,16 @@ module.exports = {
         "link": "/timeline/",
         "icon": "reco-date"
       },
-      {
-        "text": "Docs",
-        "icon": "reco-message",
-        "items": [
-          {
-            "text": "vuepress-reco",
-            "link": "/docs/theme-reco/"
-          }
-        ]
-      },
+      // {
+      //   "text": "Docs",
+      //   "icon": "reco-message",
+      //   "items": [
+      //     {
+      //       "text": "vuepress-reco",
+      //       "link": "/docs/theme-reco/"
+      //     }
+      //   ]
+      // },
       {
         "text": "Contact",
         "icon": "reco-message",
@@ -83,7 +83,7 @@ module.exports = {
       },
       {
         "title": "vuepress-theme-reco",
-        "link": "https://vuepress-theme-reco.recoluan.com"
+        "link": "https://vuepress-theme-reco.recoluan.com/views/1.x/"
       }
     ],
     "logo": "/avatar.png",
