@@ -1,0 +1,1 @@
+打开端口： "dev": "vuepress dev . --open --host \"localhost\""
