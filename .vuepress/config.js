@@ -20,6 +20,7 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+    "subSidebar": 'auto',
     "nav": [
       {
         "text": "Home",
@@ -31,16 +32,20 @@ module.exports = {
         "link": "/timeline/",
         "icon": "reco-date"
       },
-      // {
-      //   "text": "Docs",
-      //   "icon": "reco-message",
-      //   "items": [
-      //     {
-      //       "text": "vuepress-reco",
-      //       "link": "/docs/theme-reco/"
-      //     }
-      //   ]
-      // },
+      {
+        "text": "Docs",
+        "icon": "reco-message",
+        "items": [
+          // {
+          //   "text": "vuepress-reco",
+          //   "link": "/docs/theme-reco/"
+          // },
+          {
+            "text": "function",
+            "link": "/docs/function/"
+          }
+        ]
+      },
       {
         "text": "Contact",
         "icon": "reco-message",
@@ -54,12 +59,16 @@ module.exports = {
       }
     ],
     "sidebar": {
-      "/docs/theme-reco/": [
+      // "/docs/theme-reco/": [
+      //   "",
+      //   "theme",
+      //   "plugin",
+      //   "api"
+      // ],
+      "/docs/function/": [
         "",
-        "theme",
-        "plugin",
-        "api"
-      ]
+        "deepClone",
+      ],
     },
     "type": "blog",
     "blogConfig": {

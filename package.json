@@ -1,7 +1,7 @@
 {
-  "name": "my-mlog",
+  "name": "my-blog",
   "version": "1.0.0",
-  "author": "reco_luan",
+  "author": "jinjuntong",
   "scripts": {
     "dev": "vuepress dev . --open --host \"localhost\"",
     "build": "vuepress build .",
