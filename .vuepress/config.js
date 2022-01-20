@@ -113,7 +113,7 @@ module.exports = {
       showIcon: "/favicon.ico",
       showText: "(/≧▽≦/)咦！又好了！",
       hideIcon: "/failure.ico",
-      hideText: "(●—●)喔哟，崩溃啦！",
+      hideText: "(●—●)喔哟，别走嘛！",
       recoverTime: 2000
     },
     "cursor-effects": {
@@ -121,5 +121,20 @@ module.exports = {
       shape: 'circle',  // 点击形状: 'star', 'star' | 'circle'
       zIndex: 999999999
     },
+    "nuggets-style-copy": { //代码复制
+      copyText: "copy",
+      tip: {
+        content: "success!",
+      },
+    },
+    // "sakura": { //樱花插件
+    //   num: 15,  // 数量
+    //   show: true, 
+    //   zIndex: 1, 
+    //   img: {
+    //     replace: false, //false 默认图 true 换图 需要填写httpUrl地址
+    //     httpUrl: '...' //绝对路径
+    //   }
+    // }
   }
 }

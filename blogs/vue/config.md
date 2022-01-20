@@ -40,7 +40,7 @@ module.exports = {
         // 生产环境下进行压缩
         if (process.env.NODE_ENV === 'production') {
             config.plugins.push(...[
-                new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
+                new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),  //moment 2.18 会将所有本地化内容和核心功能一起打包（见该 GitHub issue），可使用 IgnorePlugin 在打包时忽略本地化内容
                 new UglifyJsPlugin({
                     uglifyOptions: {
                         compress: {
@@ -73,7 +73,6 @@ module.exports = {
             .set('assets', resolve('src/assets'))
             .set('api', resolve('src/api'));
 
-
         config.module
             .rule('excel')
             .test(/\.xlsx$/)
@@ -83,7 +82,6 @@ module.exports = {
                 symbolId: 'files/[name].[ext]'
             })
             .end()
-
 
         config.externals({
             'vue': 'Vue',
