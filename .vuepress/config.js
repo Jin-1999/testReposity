@@ -127,14 +127,14 @@ module.exports = {
         content: "success!",
       },
     },
-    // "sakura": { //樱花插件
-    //   num: 15,  // 数量
-    //   show: true, 
-    //   zIndex: 1, 
-    //   img: {
-    //     replace: false, //false 默认图 true 换图 需要填写httpUrl地址
-    //     httpUrl: '...' //绝对路径
-    //   }
-    // }
+    "sakura": { //樱花插件
+      num: 20,  // 数量
+      show: true, 
+      zIndex: 1, 
+      img: {
+        replace: false, //false 默认图 true 换图 需要填写httpUrl地址
+        httpUrl: '...' //绝对路径
+      }
+    }
   }
 }
