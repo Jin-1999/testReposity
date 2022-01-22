@@ -20,6 +20,7 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+    "subSidebar": 'auto',
     "nav": [
       {
         "text": "Home",
@@ -31,16 +32,20 @@ module.exports = {
         "link": "/timeline/",
         "icon": "reco-date"
       },
-      // {
-      //   "text": "Docs",
-      //   "icon": "reco-message",
-      //   "items": [
-      //     {
-      //       "text": "vuepress-reco",
-      //       "link": "/docs/theme-reco/"
-      //     }
-      //   ]
-      // },
+      {
+        "text": "Docs",
+        "icon": "reco-message",
+        "items": [
+          // {
+          //   "text": "vuepress-reco",
+          //   "link": "/docs/theme-reco/"
+          // },
+          {
+            "text": "function",
+            "link": "/docs/function/"
+          }
+        ]
+      },
       {
         "text": "Contact",
         "icon": "reco-message",
@@ -54,12 +59,16 @@ module.exports = {
       }
     ],
     "sidebar": {
-      "/docs/theme-reco/": [
+      // "/docs/theme-reco/": [
+      //   "",
+      //   "theme",
+      //   "plugin",
+      //   "api"
+      // ],
+      "/docs/function/": [
         "",
-        "theme",
-        "plugin",
-        "api"
-      ]
+        "deepClone",
+      ],
     },
     "type": "blog",
     "blogConfig": {
@@ -103,8 +112,8 @@ module.exports = {
     "dynamic-title": {
       showIcon: "/favicon.ico",
       showText: "(/≧▽≦/)咦！又好了！",
-      hideIcon: "/failure.ico",
-      hideText: "(●—●)喔哟，崩溃啦！",
+      hideIcon: "/favicon.ico",
+      hideText: "(●—●)喔哟，别走嘛！",
       recoverTime: 2000
     },
     "cursor-effects": {
@@ -112,5 +121,20 @@ module.exports = {
       shape: 'circle',  // 点击形状: 'star', 'star' | 'circle'
       zIndex: 999999999
     },
+    "nuggets-style-copy": { //代码复制
+      copyText: "copy",
+      tip: {
+        content: "success!",
+      },
+    },
+    "sakura": { //樱花插件
+      num: 10,  // 数量
+      show: true, 
+      zIndex: 20, 
+      img: {
+        replace: false, //false 默认图 true 换图 需要填写httpUrl地址
+        httpUrl: '...' //绝对路径
+      }
+    }
   }
 }
