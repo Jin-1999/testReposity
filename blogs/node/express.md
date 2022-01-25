@@ -15,6 +15,8 @@ Express是一个基于Node平台的web应用开发框架，它提供了一系列
 
 :::
 
+安装： ```npm install express --save``` <br>
+官方文档: [跳转](https://www.expressjs.com.cn/)
 ## Express框架特性
 
 - 提供了方便简洁的路由定义方式
