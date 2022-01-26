@@ -68,6 +68,9 @@ module.exports = {
       "/docs/function/": [
         "",
         "deepClone",
+        "isPC",
+        "loadStyle",
+        "idNoHandle"
       ],
     },
     "type": "blog",
@@ -129,8 +132,8 @@ module.exports = {
     },
     "sakura": { //樱花插件
       num: 10,  // 数量
-      show: true, 
-      zIndex: 20, 
+      show: true,
+      zIndex: 20,
       img: {
         replace: false, //false 默认图 true 换图 需要填写httpUrl地址
         httpUrl: '...' //绝对路径

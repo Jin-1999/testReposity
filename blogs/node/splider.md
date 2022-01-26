@@ -11,6 +11,7 @@ tags:
 
 ## 爬虫概念
 
+
 &emsp;&emsp;[网络爬虫](https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/5162711?fromtitle=%E7%88%AC%E8%99%AB&fromid=22046949&fr=aladdin)（又称为网页蜘蛛，网络机器人，在[FOAF](https://baike.baidu.com/item/FOAF/4916497)社区中间，更经常的称为网页追逐者），是一种按照一定的规则，自动地抓取万维网信息的[程序](https://baike.baidu.com/item/程序/13831935)或者[脚本](https://baike.baidu.com/item/脚本/1697005)。另外一些不常使用的名字还有蚂蚁、自动索引、模拟程序或者蠕虫。
 
 ## 获取数据
