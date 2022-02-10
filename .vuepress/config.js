@@ -50,10 +50,15 @@ module.exports = {
         "text": "Contact",
         "icon": "reco-message",
         "items": [
+          // {
+          //   "text": "GitHub",
+          //   "link": "https://github.com/recoluan",
+          //   "icon": "reco-github"
+          // },
           {
-            "text": "GitHub",
-            "link": "https://github.com/recoluan",
-            "icon": "reco-github"
+            "text": "Q:739068681",
+            "link": "wwww.jinjuntong.cn",
+            // "icon": "reco-github"
           }
         ]
       }
@@ -114,9 +119,9 @@ module.exports = {
     "cat": true,
     "dynamic-title": {
       showIcon: "/favicon.ico",
-      showText: "(/≧▽≦/)咦！又好了！",
+      showText: "(/≧▽≦/)咦！又好了",
       hideIcon: "/favicon.ico",
-      hideText: "(●—●)喔哟，别走嘛！",
+      hideText: "(●—●)喔哟，别走嘛",
       recoverTime: 2000
     },
     "cursor-effects": {
@@ -138,6 +143,9 @@ module.exports = {
         replace: false, //false 默认图 true 换图 需要填写httpUrl地址
         httpUrl: '...' //绝对路径
       }
+    },
+    "@vuepress-reco/vuepress-plugin-pagation": {
+      perPage: 15
     }
   }
 }
