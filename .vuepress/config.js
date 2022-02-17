@@ -48,7 +48,7 @@ module.exports = {
       },
       {
         "text": "Contact",
-        "icon": "reco-message",
+        "icon": "reco-qq",
         "items": [
           // {
           //   "text": "GitHub",
@@ -77,6 +77,10 @@ module.exports = {
         "loadStyle",
         "idNoHandle"
       ],
+      "/docs/JavaScript/": [
+        "",
+        "01",
+      ]
     },
     "type": "blog",
     "blogConfig": {
