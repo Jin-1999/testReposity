@@ -43,7 +43,11 @@ module.exports = {
           {
             "text": "function",
             "link": "/docs/function/"
-          }
+          },
+          {
+            "text": "JavaScript",
+            "link": "/docs/javascript/"
+          },
         ]
       },
       {
@@ -77,7 +81,7 @@ module.exports = {
         "loadStyle",
         "idNoHandle"
       ],
-      "/docs/JavaScript/": [
+      "/docs/javascript/": [
         "",
         "01",
       ]
