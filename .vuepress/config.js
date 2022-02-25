@@ -77,9 +77,10 @@ module.exports = {
       "/docs/function/": [
         "",
         "deepClone",
+        "webStorage",
         "isPC",
         "loadStyle",
-        "idNoHandle"
+        "idNoHandle",
       ],
       "/docs/javascript/": [
         "",
