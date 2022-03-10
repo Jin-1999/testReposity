@@ -81,6 +81,7 @@ module.exports = {
         "isPC",
         "loadStyle",
         "idNoHandle",
+        "awaitWrap"
       ],
       "/docs/javascript/": [
         "",
