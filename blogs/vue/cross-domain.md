@@ -10,7 +10,7 @@ tags:
 
 :::tip
 
-​ 违背了浏览器的同源策略就会产生跨域问题，根据`MDN`所介绍，**「同源策略」**是一个重要的安全策略，它用于限制一个[origin](https://link.juejin.cn/?target=https%3A%2F%2Fdeveloper.mozilla.org%2Fzh-CN%2Fdocs%2FGlossary%2F%E6%BA%90)的文档或者它加载的脚本如何能与另一个源的资源进行交互。它能帮助阻隔恶意文档，减少可能被攻击的媒介。
+​ 违背了浏览器的同源策略就会产生跨域问题，根据`MDN`所介绍，「同源策略」是一个重要的安全策略，它用于限制一个[origin](https://link.juejin.cn/?target=https%3A%2F%2Fdeveloper.mozilla.org%2Fzh-CN%2Fdocs%2FGlossary%2F%E6%BA%90)的文档或者它加载的脚本如何能与另一个源的资源进行交互。它能帮助阻隔恶意文档，减少可能被攻击的媒介。
 
 :::
 
