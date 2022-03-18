@@ -1,6 +1,10 @@
 ---
-title: 改写vue-router插件实现动态路由
+title: vue中实现动态路由
 date: 2022-03-18
+categories:
+  - vue
+tags:
+  - vue
 ---
 
 ## **插件**
@@ -216,7 +220,7 @@ let RouterPlugin = function () {
 };
 RouterPlugin.install = function (vue, router, store, i18n) {
   this.$router = router;
-  this.$router.$routerPluin = {
+  this.$router.$routerPlugin = {
     formatRoutes: function (aMenu = []) {
       if (aMenu.length === 0) return;
       const routes = [];
