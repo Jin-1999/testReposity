@@ -83,6 +83,8 @@ module.exports = {
         "idNoHandle",
         "awaitWrap",
         "threeClick",
+        "debounce",
+        "throttle",
       ],
       "/docs/javascript/": ["", "01"],
     },

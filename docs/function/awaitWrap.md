@@ -1,6 +1,5 @@
 ---
 title: awaitWrap
-date: 2022-01-02
 ---
 
 :::tip

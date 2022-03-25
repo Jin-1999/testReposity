@@ -1,6 +1,5 @@
 ---
 title: loadStyle
-date: 2021-12-26
 ---
 
 ```javascript
