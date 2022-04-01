@@ -41,6 +41,10 @@ module.exports = {
           //   "link": "/docs/theme-reco/"
           // },
           {
+            text: "avue",
+            link: "/docs/avue/",
+          },
+          {
             text: "function",
             link: "/docs/function/",
           },
@@ -74,6 +78,7 @@ module.exports = {
       //   "plugin",
       //   "api"
       // ],
+      "/docs/avue/": ["", "form_select"],
       "/docs/function/": [
         "",
         "deepClone",
