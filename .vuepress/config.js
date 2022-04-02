@@ -78,7 +78,13 @@ module.exports = {
       //   "plugin",
       //   "api"
       // ],
-      "/docs/avue/": ["", "form_select"],
+      "/docs/avue/": [
+        "",
+        "form_select",
+        "form_date",
+        "crud_normal",
+        "crud_selection",
+      ],
       "/docs/function/": [
         "",
         "deepClone",

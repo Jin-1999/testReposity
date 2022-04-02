@@ -1,5 +1,5 @@
 ---
-title: crud中的快速增删改查
+title: crud中的快速增删改操作
 ---
 
 :::tip
@@ -25,7 +25,6 @@ option: {
 	delBtn: true //删除按钮
 }
 */
-
   // 新增窗口的保存
   rowSave(row, done, loading) {
   	api(param)
