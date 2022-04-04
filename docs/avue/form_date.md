@@ -10,13 +10,28 @@ title: form中的各种时间类型
 
 ```js
 {
-    label: '时间',
-    prop: 'createDate',
-    type: 'date',
-    format: 'yyyy-MM-dd',
-    valueFormat: 'yyyy-MM-dd',
-    search:slot,
+    label: "时间",
+    prop: "createDate",
+    type: "date",
+    format: "yyyy-MM-dd",
+    valueFormat: "yyyy-MM-dd",
+    search: true,
     searchSpan: 6,
     searchLabelWidth: 100,
+},
+```
+
+时间区间形式, 第一项默认为当天 00:00:00, 第二项默认为 23:59:59, 格式：年月日时分秒
+
+```js
+{
+    label: "时间",
+    prop: "createDate",
+    type: "datetime",
+    search: true,
+    searchRange: true,
+    format: "yyyy-MM-dd HH:mm:ss",
+    valueFormat: "yyyy-MM-dd HH:mm:ss",
+    defaultTime: ["00:00:00", "23:59:59"],
 },
 ```

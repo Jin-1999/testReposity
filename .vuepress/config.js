@@ -82,8 +82,10 @@ module.exports = {
         "",
         "form_select",
         "form_date",
+        "form_template",
         "crud_normal",
         "crud_selection",
+        "crud_template",
       ],
       "/docs/function/": [
         "",

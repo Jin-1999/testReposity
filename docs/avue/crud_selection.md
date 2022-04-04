@@ -11,7 +11,7 @@ title: crud中的多选行
 <avue-crud ref="crud" @selection-change="selectionChange" ...> </avue-crud>
 ```
 
-```
+```js
 option:{
     selection:true, //多选列显隐
 },

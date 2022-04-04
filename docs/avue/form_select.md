@@ -58,3 +58,54 @@ avue 表单的 select 类型基本用法。
   ],
 }
 ```
+
+3、省市区 级联效果 （三个独立下拉框） 利用`cascaderItem`关联
+
+```js
+column: [
+  {
+    label: "省",
+    prop: "province",
+    type: "select",
+    labelWidth: 40,
+    span: 4,
+    hide: true,
+    search: false,
+    dicUrl: `/api/address/selectByPid/368100107951677440`,
+    dicMethod: "get",
+    props: {
+      label: "name",
+      value: "id",
+    },
+    cascaderItem: ["city", "area"],
+  },
+  {
+    label: "市",
+    prop: "city",
+    type: "select",
+    labelWidth: 40,
+    span: 4,
+    hide: true,
+    dicMethod: "get",
+    dicUrl: `/api/address/selectByPid/{{key}}`,
+    props: {
+      label: "name",
+      value: "id",
+    },
+  },
+  {
+    label: "区",
+    prop: "area",
+    type: "select",
+    labelWidth: 40,
+    span: 4,
+    hide: true,
+    dicMethod: "get",
+    dicUrl: `/api/address/selectByPid/{{key}}`,
+    props: {
+      label: "name",
+      value: "id",
+    },
+  },
+];
+```
