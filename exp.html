@@ -7,14 +7,53 @@
     <title>Document</title>
   </head>
   <body>
+    <input type="file" class="file" />
     <script>
-      function fn() {
-        for (let i = 0; i < 3; i++) {
-          if (i == 1) continue
-          console.log(i);
-        }
+      const domain = "http://114.55.170.49:9889";
+      function uploadFile(file) {
+        return new Promise((resolve) => {
+          const formData = new FormData();
+          formData.append("file", file);
+          console.log("formData", formData);
+          let xhr = new XMLHttpRequest();
+          xhr.onload = function (event) {
+            console.log("上传成功");
+          };
+          xhr.open("POST", domain + "/blade-resource/oss/uploadOss", true);
+          xhr.send(formData);
+          xhr.onreadystatechange = function () {
+            //请求后的回调接口，可将请求成功后要执行的程序写在其中
+            if (xhr.readyState == 4 && xhr.status == 200) {
+              //验证请求是否发送成功
+              var response = xhr.responseText; //获取到服务端返回的数据
+              resolve(JSON.parse(response));
+            }
+          };
+        });
       }
-      fn();
+
+      $(".file").on("change", (e) => {
+        let fileArr = Array.from(e.target.files);
+        // if (Array.isArray(fileArr)) {
+        //   if (fileArr.length == 1) {
+        //     uploadFile(fileArr[0]).then((res) => {
+        //       let { data } = res;
+        //       globalFile = data;
+        //     });
+        //   } else {
+        //     let promiseArr = [];
+        //     fileArr.forEach((item) => {
+        //       promiseArr.push(uploadFile(item));
+        //     });
+        //     Promise.all(promiseArr).then((res) => {
+        //       for (let item of res) {
+        //         let { data } = item;
+        //         globalFile += data + ",";
+        //       }
+        //     });
+        //   }
+        // }
+      });
     </script>
   </body>
 </html>
