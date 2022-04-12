@@ -98,6 +98,7 @@ module.exports = {
         "threeClick",
         "debounce",
         "throttle",
+        "XMLHttpRequest",
       ],
       "/docs/javascript/": ["", "01"],
     },
