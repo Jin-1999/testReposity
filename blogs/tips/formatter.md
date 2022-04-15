@@ -7,7 +7,7 @@ tags:
   - tips
 ---
 
-`.prettier` 相关配置
+`.prettierrc` 相关配置
 
 ```json
 {
