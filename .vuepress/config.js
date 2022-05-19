@@ -40,10 +40,10 @@ module.exports = {
           //   "text": "vuepress-reco",
           //   "link": "/docs/theme-reco/"
           // },
-          {
-            text: "avue",
-            link: "/docs/avue/",
-          },
+          // {
+          //   text: "avue",
+          //   link: "/docs/avue/",
+          // },
           {
             text: "function",
             link: "/docs/function/",
