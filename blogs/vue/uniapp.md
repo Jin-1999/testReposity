@@ -299,6 +299,23 @@ created(){
 }
 ```
 
+## 原生路由传参
+
+:::tip
+&emsp;&emsp;[onLoad](https://uniapp.dcloud.net.cn/api/router.html#navigateto)生命周期，其参数为上个页面传递的数据，参数类型为 Object 。
+:::
+
+```js
+uni.$u.route({
+  url: "someUrl?age=18&name=Jin",
+});
+
+// 跳转的界面
+onLoad({age, name}){
+  console.log(age, name) // 18 Jin
+}
+```
+
 ## 关于路由跳转
 
 :::tip

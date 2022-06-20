@@ -100,7 +100,7 @@ module.exports = {
         "throttle",
         "XMLHttpRequest",
       ],
-      "/docs/javascript/": ["", "01"],
+      "/docs/javascript/": ["", "01", "02"],
     },
     type: "blog",
     blogConfig: {
