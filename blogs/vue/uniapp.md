@@ -316,6 +316,16 @@ onLoad({age, name}){
 }
 ```
 
+## 隐藏原生导航栏
+
+```json
+"globalStyle":{
+  "navigationStyle":"custom",
+  // 或者
+  "titleNView":"false"
+}
+```
+
 ## 关于路由跳转
 
 :::tip
