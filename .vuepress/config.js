@@ -45,6 +45,10 @@ module.exports = {
           //   link: "/docs/avue/",
           // },
           {
+            text: "react",
+            link: "/docs/react/",
+          },
+          {
             text: "function",
             link: "/docs/function/",
           },
@@ -101,6 +105,7 @@ module.exports = {
         "XMLHttpRequest",
       ],
       "/docs/javascript/": ["", "01", "02"],
+      "/docs/react/": ["", "base"],
     },
     type: "blog",
     blogConfig: {

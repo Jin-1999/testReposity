@@ -5,14 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script
-      type="text/javascript"
-      src="https://cn-shanghai-aliyun-cloudauth.oss-cn-shanghai.aliyuncs.com/web_sdk_js/jsvm_all.js"
-    ></script>
   </head>
   <body>
+    <h1>hello world</h1>
     <script>
-      console.log(getMetaInfo());
+      "use strict";
+      const a = 2;
+      const o = {
+        a: 1,
+        fn: function () {
+          return new Promise((resolve) => {
+            resolve(this.a);
+          });
+        },
+      };
+
+      o.fn().then(function (res) {
+        console.log("function", res, this);
+      });
+      o.fn().then((res) => {
+        console.log("() => {}", res, this);
+      });
     </script>
   </body>
 </html>
